@@ -1,0 +1,9 @@
+<div class="rooster-list">
+    <ng-container *ngFor="let rooster of roosters">
+        <div class="rooster-container" [routerLink]="[rooster]">{{rooster}}</div>
+    </ng-container>
+    <div class="rooster-container">
+        <h2>Create new rooster</h2>
+        <mat-icon aria-hidden="false" aria-label="Add rooster icon" fontIcon="add"></mat-icon>
+    </div>
+</div>
