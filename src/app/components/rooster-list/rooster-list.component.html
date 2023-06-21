@@ -1,0 +1,10 @@
+<div class="rooster-list">
+  <ng-container *ngFor="let rooster of roosters">
+    <div class="rooster-container" [routerLink]="[rooster]">
+      <span class="rooster-name">{{ rooster }}</span>
+    </div>
+  </ng-container>
+  <div class="rooster-container create-new-rooster">
+    <h2 class="rooster-name">Create new rooster</h2>
+  </div>
+</div>
