@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-rooster-list',
@@ -6,11 +6,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
   styleUrls: ['./rooster-list.component.scss'],
 })
 export class RoosterListComponent {
-  roosters = ['Rooster1', 'Rooster2'];
+  roosters = ['Rooster test testRooster text test test test lol', 'Rooster2'];
 
-
-  // handleSelectRooster(roosterName: string) {
-  //   console.log('selecting rooster: ' + roosterName);
-  //   this.router.navigate([roosterName]);
-  // }
 }
